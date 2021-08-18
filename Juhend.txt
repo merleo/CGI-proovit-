@@ -1,0 +1,19 @@
+Juhul kui installeeritavad programmid ei hakka tööle , tuleb teha järgmist:
+
+Avada arvutis cmd
+
+kontrollida, kas Phyton on arvutisse installeeritud:
+Selleks tuleb cmd-s liikuda phyton-i juurkataloogi ( üldjuhul läheb automaatselt AppData alla )
+    Sisestada cmd-s käsk phyton --version 
+Näeb välja näiteks selline: C:\Users\merle\AppData\Local\Programs\Python\Python39>python --version
+Väljastab tulemuseks: Python 3.9.6 ( Phyton olemas )
+
+Kindlasti peab olema installitud ka pip. Kontrollida saab samuti cmd-s
+Näide: C:\Users\merle>pip --version
+      Tulemus: pip 21.2.4 from c:\users\merle\appdata\local\programs\python\python39\lib\site-packages\pip (python 3.9)
+
+
+Testide jooksutamiseks on kasutatud RIDE raamistikku, mis on Phytoni osa
+ Windows installi jaoks tuleb cmd-s sisestada käsk: pip install -U wxPython
+    
+  Windows tesctopil peaks tekkima RIDE ikoon ( kandiline nägu :)  ) Topeltclickates avatakse raamistik
