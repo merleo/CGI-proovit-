@@ -15,5 +15,12 @@ Näide: C:\Users\merle>pip --version
 
 Testide jooksutamiseks on kasutatud RIDE raamistikku, mis on Phytoni osa
  Windows installi jaoks tuleb cmd-s sisestada käsk: pip install -U wxPython
-    
+
   Windows tesctopil peaks tekkima RIDE ikoon ( kandiline nägu :)  ) Topeltclickates avatakse raamistik
+  
+  
+  Koodi käivitamine Eclipses. 
+  Selleks tuleb installeerida arvutisse Eclipse https://www.eclipse.org/ ( paremalt , download )
+ Valida Java&Development installeritavas osas.
+ Kaasa on pandud failidena vajaminevad osad, mis tuleb samuti arvutisse lahti pakkida. TestNG, JarFiles. Eclipse puhul võib kahjuks 
+ java versioon probleemi tekitada. Tuleb kontrollida, et oleks olemas java jdk.
