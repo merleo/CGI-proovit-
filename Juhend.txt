@@ -16,6 +16,8 @@ Näide: C:\Users\merle>pip --version
 Testide jooksutamiseks on kasutatud RIDE raamistikku, mis on Phytoni osa
  Windows installi jaoks tuleb cmd-s sisestada käsk: pip install -U wxPython
 
+Testikood asub Robotfraemwork-master kaustas ( TestProject.robot )
+RIDE raamistikus saab testi käivitada rohelise putuka kõrval olevast noolekesest!
   Windows tesctopil peaks tekkima RIDE ikoon ( kandiline nägu :)  ) Topeltclickates avatakse raamistik
   
   
@@ -24,3 +26,11 @@ Testide jooksutamiseks on kasutatud RIDE raamistikku, mis on Phytoni osa
  Valida Java&Development installeritavas osas.
  Kaasa on pandud failidena vajaminevad osad, mis tuleb samuti arvutisse lahti pakkida. TestNG, JarFiles. Eclipse puhul võib kahjuks 
  java versioon probleemi tekitada. Tuleb kontrollida, et oleks olemas java jdk.
+Eclipse projekt asub kaustas: eclipse-workspace\Proovitöö
+Kui projekt installerides automaatselt ei avane, siis peale Eclipse installi saab projecti avada Eclipse töölaualt valides:
+FILE->Open Projects from file system->Import source ( valida kaust, kus projekt asub:NT: C:\Users\merle\eclipse-workspace\Proovitöö )
+Allpool, kus näitab Folder, sinna tekib porojekti kaust " Proovitöö " teha sinna ette linnuke ning vajutada Finish. Eclipse projekti tekib projekt.
+Vasakul tabi-s on näha projekt " Proovitöö " Ning Proovitöö alt valikuid avades on näha System Library ning raamistikud.
+Eclipses saab testi käivitada üleval menüü ribal olevast rohelisest noolekesest ( Run ) Kui see käivitada, hakkab testikood jooksma.
+
+Kui tekib mure ja impordid ei õnnestu, siis julgelt teada anda ning vajadusel saame teha ka videokõne ja koos üle vaadata :)
